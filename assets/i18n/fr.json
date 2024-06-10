@@ -1,0 +1,7 @@
+{
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "email": "Veuillez entrer une adresse e-mail valide."
+    }
+  }
+  

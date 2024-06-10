@@ -1,0 +1,223 @@
+{
+    "validation": {
+        "_default": "ਇਹ {{field}} ਮਾਨਯੋਗ ਨਹੀਂ ਹੈ",
+        "alpha": "ਇਹ {{field}} ਫੀਲਡ ਸਿਰਫ ਵਰਣਮਾਲਾਈ ਅੱਖਰ ਹੀ ਸਮਰਥਿਤ ਹੋ ਸਕਦੀ ਹੈ",
+        "alpha_num": "ਇਹ {{field}} ਫੀਲਡ ਸਿਰਫ ਵਰਣਮਾਲਾਈ-ਅੰਕ ਸਮਰਥਿਤ ਹੋ ਸਕਦੀ ਹੈ",
+        "alpha_dash": "ਇਹ {{field}} ਫੀਲਡ ਅੱਖਰਾਂ, ਅੰਕ ਅਤੇ ਡੈਸ਼ ਅਤੇ ਅੰਡਰਸਕੋਰਜ਼ ਸਮਰਥਿਤ ਹੋ ਸਕਦੀ ਹੈ",
+        "alpha_spaces": "ਇਹ {{field}} ਫੀਲਡ ਸਿਰਫ ਵਰਣਮਾਲਾਈ ਅੱਖਰ ਅਤੇ ਖਾਲੀ ਥਾਂ ਹੀ ਸਮਰਥਿਤ ਹੋ ਸਕਦੀ ਹੈ",
+        "between": "ਇਹ {{field}} ਫੀਲਡ {{min}} ਅਤੇ {{max}} ਦਰਮਿਆਨ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "confirmed": "ਇਹ {{field}} ਫੀਲਡ ਦੀ ਪੁਸ਼ਟੀ ਮੈਲ ਨਹੀਂ ਹੈ",
+        "digits": "ਇਹ {{field}} ਫੀਲਡ ਅੰਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਬਿਲਕੁਲ ਵੀ {{length}} ਅੰਕ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ",
+        "dimensions": "ਇਹ {{field}} ਫੀਲਡ {{width}} ਪਿਕਸਲ ਦਾ ਲੰਬਾਈ ਅਤੇ {{height}} ਪਿਕਸਲ ਦਾ ਚੌੜਾਈ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "email": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਮਾਨਯੋਗ ਈਮੇਲ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "not_one_of": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਮਾਨਯੋਗ ਮੁੱਲ ਨਹੀਂ ਹੈ",
+        "ext": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਮਾਨਯੋਗ ਫਾਈਲ ਨਹੀਂ ਹੈ",
+        "image": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਚਿੱਤਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "integer": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਪੂਰਨ ਅੰਕ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ",
+        "length": "ਇਹ {{field}} ਫੀਲਡ {{length}} ਅੱਖਰ ਲੰਬਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ",
+        "max_value": "ਇਹ {{field}} ਫੀਲਡ {{max}} ਜਾਂ ਵਧ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ",
+        "max": "ਇਹ {{field}} ਫੀਲਡ {{length}} ਅੱਖਰ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋ ਸਕਦੀ",
+        "mimes": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਮਾਨਯੋਗ ਫਾਈਲ ਪ੍ਰਕਾਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "min_value": "ਇਹ {{field}} ਫੀਲਡ {{min}} ਜਾਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "min": "ਇਹ {{field}} ਫੀਲਡ ਘੱਟੋ-ਘੱਟ {{length}} ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ",
+        "numeric": "ਇਹ {{field}} ਫੀਲਡ ਸਿਰਫ ਅੰਕ ਸਮਰਥਿਤ ਹੋ ਸਕਦਾ ਹੈ",
+        "one_of": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਮਾਨਯੋਗ ਮੁੱਲ ਨਹੀਂ ਹੈ",
+        "regex": "ਇਹ {{field}} ਫੀਲਡ ਫਾਰਮੈਟ ਗਲਤ ਹੈ",
+        "required": "ਇਹ {{field}} ਫੀਲਡ ਲੋੜੀਦੀ ਹੈ",
+        "size": "ਇਹ {{field}} ਫੀਲਡ ਆਕਾਰ {{size}} ਕੇਬੀ ਤੋਂ ਘੱਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ",
+        "url": "ਇਹ {{field}} ਫੀਲਡ ਇੱਕ ਮਾਨਯੋਗ URL ਨਹੀਂ ਹੈ",
+        "exists":"ਇਹ {{field}} ਫੀਲਡ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ",
+        "link": "{{field}} ਫੀਲਡ ਇੱਕ ਵਾਜ਼ਿਬ ਲਿੰਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "underAge": "{{field}} ਫੀਲਡ 18 ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+        "dynamic":"ਇਹ {{field}}"
+    },
+    "Label": {
+        "Employee": {
+            "gender": "ਲਿੰਗ",
+            "firstName": "ਪਹਿਲਾ ਨਾਂ",
+            "lastName": "ਆਖਰੀ ਨਾਂ",
+            "fatherName": "ਪਿਤਾ ਦਾ ਨਾਂ",
+            "motherName": "ਮਾਤਾ ਦਾ ਨਾਂ",
+            "maritalStatus": "ਵਿਵਾਹਿਕ ਦਰਜਾ",
+            "spouse": "ਜੀਵਨ ਸਾਥੀ ਦਾ ਨਾਮ",
+            "contact": "ਸੰਪਰਕ ਨੰਬਰ",
+            "dateOfBirth": "ਜਨਮ ਦਾ ਮਿਤੀ",
+            "aadhaarNumber": "ਆਧਾਰ ਨੰਬਰ",
+            "parivarPehchanPatra": "ਪਰਿਵਾਰ ਪਹਿਚਾਨ ਪੱਤਰ (PPP ID)",
+            "emailAddress": "ਈਮੇਲ ਆਈਡੀ",
+            "mobileNo": "ਮੋਬਾਈਲ ਨੰਬਰ",
+            "pan": "ਪੈਨ",
+            "pran": "ਪ੍ਰਾਨ ਨੰਬਰ",
+            "file": "ਪ੍ਰੋਫਾਈਲ ਤਸਵੀਰ (jpg, png, jpeg, ਆਦਿ) (5MB)"
+        },
+        "PhysicalDetails": {
+            "BloodGroup": "ਖੂਨ ਦਾ ਗਰੁੱਪ",
+            "Height": "ਲੰਬਾਈ (ਸੈਂਟੀਮੀਟਰ ਵਿੱਚ)",
+            "Weight": "ਵਜ਼ਨ (ਕਿਲੋਗ੍ਰਾਮ ਵਿੱਚ)",
+            "MedicalFitness": "ਮੈਡੀਕਲ ਫਿਟਨੈਸ",
+            "IdentificationMark": "ਸ਼ਨਾਖਤੀ ਚਿੰਨ"
+        },
+        "Qualifications": {
+            "qualificationType": "ਯੋਗਤਾ ਕਿਸਮ",
+            "qualificationName": "ਯੋਗਤਾ ਦਾ ਨਾਂ",
+            "specialization": "ਕੋਈ ਖਾਸ ਵਿਸ਼ੇਸ਼ਤਾ",
+            "board": "ਬੋਰਡ/ਯੂਨੀਵਰਸਿਟੀ",
+            "institution": "ਸੰਸਥਾ",
+            "yearOfPassing": "ਪਾਸ ਹੋਣ ਦਾ ਸਾਲ",
+            "cgpa": "ਸੀਜੀਪੀਏ",
+            "informationType": "ਜਾਣਕਾਰੀ ਕਿਸਮ",
+            "description": "ਵਰਣਨ"
+        },
+        "FamilyDetails": {
+            "Name": "ਨਾਮ",
+            "Relation": "ਸਬੰਧ",
+            "DateofBirth": "ਜਨਮ ਦੀ ਮਿਤੀ",
+            "Occupation": "ਪੇਸ਼ੇ",
+            "Dependent": "ਨਿਰਭਰ",
+            "Nominee": "ਨਾਮਜਦਗਾਰ",
+            "ContactNumber": "ਸੰਪਰਕ ਨੰਬਰ",
+            "MaritalStatus": "ਵੈਵਾਹਿਕ ਦਰਜਾ"
+        },
+        "Experience": {
+            "fromDate": "ਤਾਰੀਖ ਤੋਂ",
+            "toDate": "ਤਾਰੀਖ ਤੱਕ",
+            "employerName": "ਨਿਯੁਕਤ ਕਰਨ ਵਾਲਾ ਨਾਂ",
+            "designation": "ਪ੍ਰਦਾਨ",
+            "experience": "ਅਨੁਭਵ",
+            "payDrawnPerYear": "ਸਾਲਾਨਾ ਭੁਗਤਾਨ (ਜਿਵੇਂ: 1)"
+        },
+        "Emergency": {
+            "MobileNumber": "ਮੋਬਾਈਲ ਨੰਬਰ",
+            "Name": "ਨਾਮ",
+            "Relation": "ਸਬੰਧ"
+        },
+        "Demographic": {
+            "Religion": "ਧਰਮ",
+            "Nationality": "ਰਾਸ਼ਟਰੀ",
+            "Category": "ਸ਼੍ਰੇਣੀ",
+            "MotherTongue": "ਮਾਂ ਬੋਲੀ",
+            "VerificationDone": "ਪੁਸ਼ਟੀ ਹੋਈ"
+        },
+        "BankDetails": {
+            "bankName": "ਬੈਂਕ ਦਾ ਨਾਮ",
+            "bankAddress":"ਬੈਂਕ ਪਤਾ",
+            "bankAccountNumber": "ਬੈਂਕ ਖਾਤਾ ਨੰਬਰ",
+            "ifscCode": "IFSC ਕੋਡ",
+            "accountHolderName": "ਖਾਤਾ ਧਾਰਕ ਦਾ ਨਾਮ",
+            "verificationCode": "ਪੁਸ਼ਟੀ ਕੋਡ"
+        },
+        "Address": {
+            "Address": "ਪਤਾ",
+            "PinCode": "ਪਿੰਨ ਕੋਡ",
+            "Country":"ਦੇਸ਼",
+            "State": "ਰਾਜ",
+            "District":"ਜ਼ਿਲ੍ਹਾ",
+            "City": "ਸ਼ਹਿਰ",
+            "AddressType": "ਪਤਾ ਕਿਸਮ"
+        },
+        "Employment": {
+            "employeeType": "ਕਰਮਚਾਰੀ ਕਿਸਮ",
+            "Organization": "ਸੰਸਥਾ",
+            "department": "ਵਿਭਾਗ",
+            "designation": "ਪ੍ਰਦਾਨ",
+            "staffType": "ਸਟਾਫ ਕਿਸਮ",
+            "dateOfJoining": "ਸ਼ਾਮਲੀ ਦੀ ਤਾਰੀਖ",
+            "idCard": "ਆਈ.ਡੀ. ਕਾਰਡ ਨੰਬਰ",
+            "additionalRes": "ਵਾਧੂ ਜ਼ਿੰਮੇਵਾਰੀ",
+            "staffGrade": "ਸਟਾਫ ਗਰੇਡ",
+            "retirementEndDate": "ਅਵਸਰ/ਸੰਪਰਕ ਅੰਤ ਦੀ ਮਿਤੀ",
+            "confirmationDate": "ਪੁਸ਼ਟੀ/ਪ੍ਰਾਬਿਸ਼ਨ ਦੀ ਮਿਤੀ",
+            "managerName": "ਮੈਨੇਜਰ ਦਾ ਨਾਮ",
+            "contractRejoinDate": "ਸੰਬੰਧ ਅਵਧੀ ਮੁੜ ਜੁੜਨ ਦੀ ਮਿਤੀ",
+            "contractExpiryDate": "ਸੰਬੰਧ ਅਵਧੀ ਅੰਤ ਦੀ ਮਿਤੀ",
+            "name": "ਨਾਮ",
+            "phoneNo": "ਫੋਨ ਨੰਬਰ",
+            "Referencedesignation": "ਹਵਾਲਾ ਦੀਤੇ ਪ੍ਰਦਾਨ",
+            "address": "ਪਤਾ",
+            "location":"ਸਥਾਨ",
+            "division":"ਵਿਭਾਗ",
+            "project":"ਪਰਾਜੈਕਟ"
+        },
+        "Transfer": {
+            "employee": "ਕਰਮਚਾਰੀ",
+            "department": "ਵਿਭਾਗ",
+            "designation": "ਪ੍ਰਦਾਨ",
+            "location":"ਸਥਾਨ",
+            "division":"ਵਿਭਾਗ",
+            "project":"ਪਰਾਜੈਕਟ",
+            "transferDate":"ਸਥਾਨਾਂਤਰ ਤਾਰੀਖ",
+            "remarks":"ਟਿਪਪਣੀਆਂ"
+        },
+        "Report": {
+            "Company": "ਕੰਪਨੀ"
+        },
+        "LeaveType": {
+            "leaveType": "ਜਾਣ ਲਈ ਛੱਡਣ ਦੀ ਕਿਸਮ ਚੁਣੋ",
+            "leaveName": "ਛੁੱਟੀ ਦਾ ਨਾਮ",
+            "shortCode": "ਛੋਟਾ ਕੋਡ",
+            "description": "ਵੇਰਵਾ ਸ਼ਾਮਲ ਕਰੋ"
+
+        },
+        "Invitation": {
+            "EmailId": "ਈਮੇਲ ਆਈਡੀ"
+        },
+        "Setting": {
+            "defaultView": "ਮੂਲ ਵੇਖੋ",
+            "defaultlanguage":"ਮੂਲ ਭਾਸ਼ਾ",
+            "addterminatebutton":"ਮੁਕੰਮਲ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "addsuspendbutton":"ਸਸਪੈਂਡ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "addresignbutton":"ਅਸਤੀਫਾ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "addretirementbutton":"ਅਵਸਰ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "dmsbutton":"DMS ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "teamButton":"ਟੀਮ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "quickLink":"ਤੇਜ਼ ਲਿੰਕ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "announcement" : "ਘੋਸ਼ਣਾ ਸ਼ਾਮਲ ਕਰੋ",
+            "welcomemsg_enabled": "ਸਵਾਗਤ ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰੋ",
+            "welcome_message": "ਸੁਆਗਤ ਸੁਨੇਹਾ",
+            "about":"ਐਡ ਐਬਾਊਟ ਬਟਨ ਸ਼ਾਮਲ ਕਰੋ",
+            "digitalSignature":"ਡਿਜ਼ਿਟਲ ਸਿਗਨੇਚਰ ਸ਼ਾਮਲ ਕਰੋ"
+        },
+        "LeavePlan": {
+            "planName": "ਛੁੱਟੀ ਯੋਜਨਾ ਦਾ ਨਾਮ",
+            "startFromParticularMonth": "ਇੱਕ ਖਾਸ ਮਹੀਨੇ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ",
+            "description": "ਵੇਰਵਾ ਸ਼ਾਮਲ ਕਰੋ"
+        },
+        "Resign": {
+            "Remarks": "ਟਿਪਪਣੀਆਂ",
+            "File": "ਫਾਈਲ"
+        },
+        "Quicklink": {
+            "Linktitle": "ਲਿੰਕ ਸਿਰਲੇਖ",
+            "URL": "ਯੂਆਰਐਲ",
+            "SocialMedia": "ਸੋਸ਼ਲ ਮੀਡੀਆ"
+        },
+        "ShowHistory": {
+            "name": "ਨਾਮ",
+            "designation": "ਪ੍ਰਦਾਨ",
+            "date": "ਮਿਤੀ",
+            "document": "ਦਸਤਾਵੇਜ਼",
+            "remarks": "ਟਿਪਪਣੀਆਂ"
+        },
+        "Module": {
+            "moduleName":"ਮੋਡਿਊਲ ਨਾਂ"
+        },
+        "Submodule": {
+            "module":"ਮੋਡਿਊਲ",
+            "SubModuleName" :"ਸਬਮੋਡਿਊਲ ਨਾਂ"
+        },
+        "Announcement": {
+            "Announcement":"ਘੋਸ਼ਣਾ",
+            "startdate" : "ਸ਼ੁਰੂ ਦੀ ਮਿਤੀ",
+            "endDate" : "ਅੰਤ ਦੀ ਮਿਤੀ"
+        },
+        "EmployeeList":{
+            "Remark":"ਅਨੁਮੋਦਨ; ਟਿਪਪਣੀ",
+            "File":"ਅਨੁਮੋਦਨ ਦਸਤਾਵੇਜ਼",
+            "digitalSignature":"ਡਿਜ਼ੀਟਲ ਸਾਇਨਚਰ"
+        },
+        "SendMail": {
+            "SendMail": "ਸੁਨੇਹਾ"
+        }
+        
+    }
+}
